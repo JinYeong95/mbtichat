@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+        font-family: 'GongGothicMedium';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+        body {
+            font-family: 'GongGothicMedium';
+        }
+        #context {
+            width: 100%;
+            text-align: center;
+            margin-top: 200px;
+        }
+        #btn__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+        }
+        button {
+            width: 300px;
+            height: 40px;
+            font-size: 18px;
+            text-align: center;
+            line-height: 15px;
+            margin-bottom: 20px;
+            border: none;
+            font-family: 'GongGothicMedium';
+            border-radius: 10px;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:visited {
+            text-decoration: none;
+            color: black;
+        }
+        #paging_T {
+            background-color: rgb(182, 233, 238);
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="context">
+        <h3>당신의 대화 성향은</h3>
+        <h3> <b style="color: rgb(20, 102, 243);"> T</b> 에 가깝습니다 !🤗</h3>
+    </div>
+    
+    <div id="btn__container">
+        <button id="paging_T">
+            <a href="./check_T.html">T랑 대화하기😎</a>
+        </button>
+        
+        <button id="paging_home">
+            <a href="./index.html">홈으로</a>
+        </button>
+        <button id="paging_back">
+            <a href="./simple_test.html">이전으로</a>
+        </button>
+    </div>
+    
+</body>
+</html>

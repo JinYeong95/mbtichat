@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>나의 대화 성향 테스트하기</title>
+    <link rel="stylesheet" href="./css/simple_test.css">
+    <script src="./js/simple_test.js" defer></script>
+
+</head>
+
+<body>
+    <a href="./index.html" id="left__arrow">
+        <img src="./img/left-arrow.png" alt="이전으로 돌아가는 아이콘" style="width: 50px; height: 50px;" >
+    </a>
+    <div id="content">
+        <div id="title__container">
+            <h2>대화 성향 TEST</h2>
+        </div>
+        
+    
+        <!-- 설명란 -->
+        <div id="info__container">
+            <div id="info">
+                <p>나의 대화 성향을 알 수 있어요.</p>
+                <p>둘 중 나의 성향과 맞는 쪽을 고르세요.</p>
+            </div>
+        </div>
+        <hr>
+
+        <div id="questions__container">
+            <div class="questions" id="question_container1">
+                <p class="question_context"><b style="color: navy;">질문 1</b> <br> 나 지금 치킨 먹고 있는데 너가 좋아할 것 같은 맛이야!! </p>
+                <div class="answer_container">
+                    <!-- 질문 1 답변 T -->
+                    <div class="T_answer_container">
+                        <label class="answer-label">
+                            <input type="radio" class="answer-radio" name="question1" value="T">
+                            <img class="answer-image-T answer-image" src="./img/t_reaction3.png" alt="T">
+                            <p class="answer">어떤 맛이길래 내가 좋아할거 같다고 하는거야?<br>
+                            </p>
+                        </label>
+                    </div>
+                    <!-- 질문 1 답변 F -->
+                    <div class="F_answer_container">
+                        <label class="answer-label">
+                            <input type="radio" class="answer-radio" name="question1" value="F">
+                            <img class="answer-image-F answer-image" src="./img/f_reaction3.png" alt="F">
+                            <p class="answer">진짜? 나중에 먹어볼게! 궁금하당 고마워!! <br> </p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="questions" id="question_container2">
+                <p class="question_context"><b style="color: navy;">질문 2</b> <br> 난 그냥 너가 좋아 </p>
+                <div class="answer_container">
+                    <!-- 질문 2 답변 T -->
+                    <div class="T_answer_container">
+                        <label class="answer-label">
+                            <input type="radio" class="answer-radio" name="question2" value="T">
+                            <img class="answer-image-T answer-image" src="./img/t_robot.png" alt="T">
+                            <p class="answer">나를 왜?</p>
+                        </label>
+                    </div>
+                    <!-- 질문 2 답변 F -->
+                    <div class="F_answer_container">
+                        <label class="answer-label">
+                            <input type="radio" class="answer-radio" name="question2" value="F">
+                            <img class="answer-image-F answer-image" src="./img/f_robot.png" alt="F">
+                            <p class="answer">그냥 아무 이유없이 좋다는건가..? 감동이야ㅠ</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+    
+            <hr>
+            <div class="questions" id="question_container3">
+                <p class="question_context"><b style="color: navy;">질문 3</b> <br> 이러면 아무도 너 안좋아해 </p>
+                <div class="answer_container">
+                    <!-- 질문 3 답변 T -->
+                    <div class="T_answer_container">
+                        <label class="answer-label">
+                            <input type="radio" class="answer-radio" name="question3" value="T">
+                            <img class="answer-image-T answer-image" src="./img/t_reaction.png" alt="T">
+                            <p class="answer">어쩌라고</p>
+                        </label>
+                    </div>
+                    <!-- 질문 3 답변 F -->
+                    <div class="F_answer_container">
+                        <label class="answer-label">
+                            <input type="radio" class="answer-radio" name="question3" value="F">
+                            <img class="answer-image-F answer-image" src="./img/f_reaction.png" alt="F">
+                            <p class="answer">(상처..ㅠ)</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="questions" id="question_container4">
+                <p class="question_context"><b style="color: navy;">질문 4</b><br> 넌 뭐 제대로 아는게 없는데 아는 척 하나는 오지네 </p>
+                <div class="answer_container">
+                    <!-- 질문 4 답변 T -->
+                    <div class="T_answer_container">
+                        <label class="answer-label">
+                            <input type="radio" class="answer-radio" name="question4" value="T">
+                            <img class="answer-image-T answer-image" src="./img/t_reaction2.png" alt="T">
+                        </label>
+                    </div>
+                    <!-- 질문 4 답변 F -->
+                    <div class="F_answer_container">
+                        <label class="answer-label">
+                            <input type="radio" class="answer-radio" name="question4" value="F">
+                            <img class="answer-image-F answer-image" src="./img/f_reaction2.png" alt="F">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="questions" id="question_container5">
+                <p class="question_context"><b style="color: navy;">질문 5</b> <br >친구가 울고 있는 상황 </p>
+                <div class="answer_container">
+                    <!-- 질문 5 답변 T -->
+                    <div class="T_answer_container">
+                        <label class="answer-label">
+                            <input type="radio" class="answer-radio" name="question5" value="T">
+                            <img class="answer-image-T answer-image" src="./img/t_reaction4.png" alt="T">
+                            <p class="answer">왜 울고 있어?</p>
+                        </label>
+                    </div>
+                    <!-- 질문 5 답변 F -->
+                    <div class="F_answer_container">
+                        <label class="answer-label">
+                            <input type="radio" class="answer-radio" name="question5" value="F">
+                            <img class="answer-image-F answer-image" src="./img/f_reaction4.png" alt="F">
+                            <p class="answer">헉 누가 그랬어! 무슨 안 좋은 일 있어?</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="btn__container">
+            <button id="btn" onclick="checkAndRedirect()">결과 확인하기!</button>
+        </div>
+    
+        <div id="result" style="display:none">
+            <h3>다시 하기</h3>
+            <p id="finalResult"></p>
+        </div>
+    </div>
+    
+
+</body>

@@ -1,0 +1,89 @@
+/* styles.css */
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: GongGothicMedium;
+  margin: 0;
+  /* padding: 0; */
+}
+
+/* 보라색 상단 바 스타일 */
+.top-bar {
+  background-color: rgb(189, 159, 228);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+}
+
+/* 채팅 박스 컨테이너 스타일 */
+#chatbox-container {
+  width: 100%; 
+  height: 30vh; /* 화면 높이의 30%로 설정 (상단 10분의 2의 높이로 설정) */
+  overflow-y: auto; 
+}
+
+/* 채팅 박스 스타일 */
+#chatbox {
+  width: 100%; 
+  height: 70%; 
+  margin: 0 auto; 
+  padding: 20px;
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  background-color: #fff; 
+  overflow-y: auto; 
+}
+
+.message {
+  margin: 10px 0;
+}
+
+.user-message {
+  background-color: #e6f7ff;
+  text-align: right;
+}
+
+.chatbot-message {
+  background-color: #f0f0f0;
+  text-align: left;
+}
+
+input[type="text"] {
+  font-family: GongGothicMedium;
+  width: calc(100% - 50px); 
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: 2px solid rgb(189, 159, 228);
+}
+
+/* 하단 메시지 입력 영역 스타일 */
+.message-input {
+  background-color: rgb(189, 159, 228); 
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  /* position: relative;  */
+  width: 100%; 
+  position: fixed;
+  bottom: 0;
+}
+
+/* 보내기 버튼 아이콘 이미지 스타일 */
+.send-button-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px; 
+  cursor: pointer;
+  
+}

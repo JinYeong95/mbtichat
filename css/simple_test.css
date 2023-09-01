@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'GongGothicMedium';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+    width: auto 0 ;
+    margin-top: 15%;
+}
+.top__container {
+border: 1px solid black;
+display: flex;
+justify-content: center; 
+align-items: center;
+width: 100%;
+}
+h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#info {
+    /* font-size: 16px; */
+    margin-bottom: 50px;
+}
+/* 질문 컨테이너를 가운데 정렬 */
+#questions {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+/* 설명란 컨테이너를 가운데 정렬 */
+#info__container {
+    text-align: center;
+}
+
+/* 결과 확인 버튼을 가운데 정렬 */
+#btn__container {
+    margin-top: 14%;
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+.answer_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+.answer {
+    margin: 0;
+    padding: 0;
+    /* text-overflow: ellipsis;         */
+    text-align: center;
+    width: 400px;
+    line-height: 40px;
+    font-size: 21px;
+    overflow: auto; /* 스크롤 가능하게 설정 */
+    white-space: normal; /* 줄바꿈 설정 */
+}
+
+
+.T_answer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.answer-image{
+    width: 400px;
+    height: 400px;
+}
+header{
+    border: 1px solid black;
+}
+input{
+    display: none;
+}
+.questions{
+    margin: 0;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#question_container1, #question_container2, #question_container3, #question_container4,#question_container5 {
+    /* border: 1px solid black; */
+    width: 100%;
+}
+#left__arrow{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+}
+#finalResult {
+    text-align: center;
+}
+#result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+    background-color: bisque;
+}
+#info  p {
+    font-size: 33px;
+}
+#btn {
+    font-family: 'GongGothicMedium';
+    width: 500px;
+    height: 70px;
+    font-size: 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+#btn:hover {
+    background-color: aquamarine;
+}
+.question_context {
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(235, 251, 219);
+    padding: 15px;
+}
+h3 {
+    text-align: center;
+}
+.answer-image.selected {
+    border: 3px solid #ff00ae; /* 취향에 맞는 다른 색상을 선택할 수 있습니다 */
+  }
+#content {
+    width: 100%;
+}

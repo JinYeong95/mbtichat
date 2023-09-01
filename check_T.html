@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>T Chatbot</title>
+  <link rel="stylesheet" href="./css/check_t2.css">
+  <script src="./js/chat_T.js" defer>
+  </script>
+
+<body>
+  <!-- 상단 탑 -->
+  <div class="top__container">
+    <div id="top__bar">
+      <a href="./index.html">
+        <img src="./img/left-arrow.png" alt="Back" class="back-button" style="width: 24px; height: 24px;">
+      </a>
+      <h2>T와 대화하기</h2>
+      <div id="menu__btn__container">
+        <img id="ddd" src="./img/more.png" alt="more" onclick="toggleMenu()">
+      </div>
+      <!-- 메뉴 div -->
+      <div id="menu__container" class="menu__hidden">
+        <!-- 메뉴 내용 -->
+        <p class="menu__context" id="save_convo">대화 저장
+          <img src="./img/download.png" alt="저장">
+        </p>
+        <p class="menu__context" id="restart_convo">대화 재시작
+          <img src="./img/reload.png" alt="재시작">
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 대화가 띄워지는 부분 -->
+  <div id="chatbox"></div>
+
+  <!-- 메시지 입력란 -->
+  <div id="message__input">
+    <input type="text" id="userInput" placeholder="메시지를 입력하세요">
+    <button id="sendBtn">
+      <img src="./img/paper-plane.png" alt="send">
+    </button>
+  </div>
+
+<!--  <script src="/js/script.js"></script>-->
+</body>
+
+</html>

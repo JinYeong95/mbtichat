@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{ 
+    font-family: 'GongGothicMedium';
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    position: fixed;
+    width: 100%;
+  }
+.top__container{
+    /* margin-top: 15%; */
+/* 요기 추가햇슴 */
+    position: absolute;
+    width: 100%;
+    background-color: rgb(174, 225, 236);
+    padding-top: 15%;
+}
+
+.chat__container {
+    /* 대화가 띄워지는 부분이 상단 탑의 아래에 위치하도록 조정 */
+    margin-top: 15%;
+    height: calc(100vh - 15%);
+    overflow-y: hidden;
+    position: relative; /* 추가된 부분 */
+}
+
+
+#top__bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#chatbox {
+    height: 70vh;
+    overflow-y: scroll;
+    padding: 10px;
+    flex-direction: column-reverse; 
+    margin: 0 auto;
+    margin-top: 32%;
+}
+
+#message__input{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: lightgray;
+    height: 70px;
+}
+#userInput{
+    width: 70%;
+    height: 40px;
+    border: none;
+    /* margin-left: auto; */
+    /* margin-right: 20px; */
+    /* background-color: gainsboro; */
+    border-radius: 80px;
+    padding-left: 10px;
+    font-family: 'GongGothicMedium';
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+#sendBtn {
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: lightblue;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#menu__container {
+    position: absolute;
+    top: 100%;       /* 이거 바꿈 */
+    right: 10px; 
+    width: 30%; 
+    height: 100px; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+    border: 0.5px solid gray;
+    /* padding-left: 20px; */
+    margin: auto 0;
+
+}
+.menu__visible {
+    display: flex;
+    align-self: center;
+  }
+
+.user-message{
+    align-self: flex-end;
+    background-color: #dde1e4;
+    padding: 8px 12px;
+    border-radius: 12px 12px 0px 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.bot-message {
+    align-self: flex-start;
+    background-color: #E4F7FF;
+    padding: 8px 12px;
+    border-radius: 12px 12px 12px 0;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+.message-container {
+    display: flex;
+    width: 100%; 
+    flex-direction: column-reverse;
+  }
+.menu__context{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu__context > img{
+    width: 16px;
+    height: 16px;
+}
