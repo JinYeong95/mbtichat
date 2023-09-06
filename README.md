@@ -3,7 +3,7 @@
   <img width="20%" height="20%" src="https://github.com/JinYeong95/mbtichat/assets/117560090/ebb74f2a-670d-48a0-90b1-a255f4dc8a30"/>
 <br>
 <br>
-Mbti Chatbot은 2022년 7월 19일부터 8월 9까지 개발된 프로젝트입니다.<br>
+Mbti Chatbot은 2022년 7월 19일부터 8월 9일까지 개발된 프로젝트입니다.<br>
 T와 F로 나눈 채팅 유형을 구분하여 선택하고 대화할 수 있습니다.<br>
 다양한 언어모델을 사용하여 사용자가 제시하는 신조어를 빠르게 이해하고 번역하는 역할을 수행합니다.<br>
 </div>
