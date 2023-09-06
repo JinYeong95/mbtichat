@@ -1,5 +1,3 @@
-![image](https://github.com/JinYeong95/mbtichat/assets/117560090/f5125e3a-af7f-403c-ac0c-39593147d1f4)# mbtichat
-
 ## 1. MBTI Chatbot
 <div align="center">
   <img width="20%" height="20%" src="https://github.com/JinYeong95/mbtichat/assets/117560090/ebb74f2a-670d-48a0-90b1-a255f4dc8a30"/>
@@ -28,12 +26,13 @@ MBTI는 최근 가장 인기 있는 개인 성격 검사 도구로, T와 F로 �
 
 ## 4. 사용 방법
 
-1. 해당 파일을 다운 받습니다.
-2. (Visual studio code 기준) 해당 파일을 압축을 해제하여 파일을 visual code studio 위에 놓습니다.
-3. !pip install fastapi 'uvicorn[standard]' 를 입력하여 pip를 설치합니다.
-4. uvicorn main:app --reload 를 입력하여 실행시킵니다.
-5. Uvicorn running on http://127.0.0.1:8000이라는 문구가 뜰텐데, http://127.0.0.1:8000를 크롬 등 인터넷을 가동시키는 곳에 주소를 복사하여 입력합니다.
-6. F12를 눌러 핸드폰 화면 크기로 전환하고, 사용하시면 됩니다!(T, F, 간단 테스트하기)
+1. 해당 파일을 다운 받습니다.(너무 용량이 커서, 구글드라이브로 대체합니다)
+   * [구글드라이브](https://drive.google.com/file/d/1_UiK4ecqCnUxKZjutgTDR64VMp3BYnLR/view)
+3. (Visual studio code 기준) 해당 파일을 압축을 해제하여 파일을 visual code studio 위에 놓습니다.
+4. !pip install fastapi 'uvicorn[standard]' 를 입력하여 pip를 설치합니다.
+5. uvicorn main:app --reload 를 입력하여 실행시킵니다.
+6. Uvicorn running on http://127.0.0.1:8000 이라는 문구가 뜰텐데, http://127.0.0.1:8000 를 크롬 등 인터넷을 가동시키는 곳에 주소를 복사하여 입력합니다.
+7. F12를 눌러 핸드폰 화면 크기로 전환하고, 사용하시면 됩니다!(T, F, 간단 테스트하기)
 
 ## 5. 작동 예시
 <div align="center">
